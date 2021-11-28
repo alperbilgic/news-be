@@ -17,3 +17,6 @@ python manage.py migrate
 python manage.py loaddata initialize.json
 python manage.py runserver
 ```
+
+## If you want to run backend happy path tests manually. Run below command in terminal when virtual environment is activated
+python manage.py test
